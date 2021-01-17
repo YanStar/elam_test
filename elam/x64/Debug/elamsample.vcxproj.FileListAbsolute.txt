@@ -1,0 +1,2 @@
+D:\good_luck_ali\elam\x64\Debug\elamsample.sys
+D:\good_luck_ali\elam\x64\Debug\elamsample.pdb

@@ -1,0 +1,23 @@
+﻿  Building 'elamsample' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  elamsample.c
+  elamsample.vcxproj -> D:\good_luck_ali\elam\x64\Debug\elamsample.sys
+  Inf2Cat task was skipped as there were no inf files to process
+  
+  
+  The following certificates were considered:
+EXEC : SignTool error : No certificates were found that met all the given criteria.
+      Issued to: MyElamCert
+  
+      Issued by: MyElamCert
+  
+      Expires:   Sun Jan 01 07:59:59 2040
+  
+      SHA1 hash: C4228A8EAC1318C155B50CF211117AC982A985C4
+  
+  
+  After EKU filter, 1 certs were left.
+  After expiry filter, 1 certs were left.
+  After Subject Name filter, 1 certs were left.
+  After Private Key filter, 0 certs were left.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 命令“signtool.exe  sign /fd SHA256 /a /v /ph /debug /s "PrivateCertStore" /n "MyElamCert" /t http://timestamp.comodoca.com/authenticode x64\Debug\\elamsample.sys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: :VCEnd”已退出，代码为 1。
